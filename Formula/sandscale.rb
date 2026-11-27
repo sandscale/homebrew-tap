@@ -7,28 +7,28 @@
 class Sandscale < Formula
   desc "Sandscale cloud workspaces, sandboxes, build hosts and vault from the terminal"
   homepage "https://sandscale.dev"
-  version "1.1.2"
+  version "1.2.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.1.2/sandscale-darwin-arm64"
-      sha256 "07aa331b32f8e7eb5a81810c1046414f0f7ee603872478893f640fa8380f908f"
+      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.2.0/sandscale-darwin-arm64"
+      sha256 "aa62d1d123e34284413c0e1bd7f8a78d109a572e9420c001819fd545b4bb234e"
     end
     on_intel do
-      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.1.2/sandscale-darwin-x64"
-      sha256 "67e6c0f61d2ac40e7cd33c63d3ddd22a2acd2ee2b16a16996a89bdd846f6de60"
+      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.2.0/sandscale-darwin-x64"
+      sha256 "b51e9dd3906574a8ff7033f07232f4c9c598e43ca00bdde17cc8fd9f60d5bf61"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.1.2/sandscale-linux-arm64"
-      sha256 "e2fed07d92a7c3e2c785922ac5f3a1b8573e121ff04ce82d2c6035037cec153e"
+      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.2.0/sandscale-linux-arm64"
+      sha256 "61de67aa0cba6a1d5ad6c813bc8cde482e7538465f43ad91397934b226d292f6"
     end
     on_intel do
-      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.1.2/sandscale-linux-x64"
-      sha256 "796ad67c3b005e28bbf264ad53624193a335cd26f67291e44223cc84aa71efb1"
+      url "https://github.com/sandscale/cli/releases/download/sandscale-cli-1.2.0/sandscale-linux-x64"
+      sha256 "655a717bbdaf4cd976bdb4c9b3994e79e49948238f025d908eaaa2ec85626f18"
     end
   end
 
